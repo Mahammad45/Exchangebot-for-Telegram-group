@@ -1,0 +1,948 @@
+2024-08-14 15:57:21,151 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 15:57:21,156 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 15:57:51,073 - __main__ - INFO - Start bot
+2024-08-14 15:57:51,514 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 15:57:51,516 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 15:57:54,618 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 15:57:54,619 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 15:57:57,747 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 15:57:57,747 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 15:58:00,904 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 15:58:00,905 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 15:58:04,080 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 15:58:04,081 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 15:58:07,258 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 15:58:07,259 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 15:58:10,602 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 15:58:10,603 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 15:58:13,811 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 15:58:13,812 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 15:58:16,994 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 15:58:16,995 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 15:58:20,160 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 15:58:20,161 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 15:58:23,325 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 15:58:23,326 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 15:58:26,760 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 15:58:26,761 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 15:58:29,981 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 15:58:29,981 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 15:58:33,871 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 15:58:33,871 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 15:58:36,978 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 15:58:36,979 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 15:58:40,415 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 15:58:40,415 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 15:58:43,616 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 15:58:43,616 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 15:58:46,764 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 15:58:46,765 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 15:58:50,176 - __main__ - INFO - Start bot
+2024-08-14 15:58:51,175 - __main__ - ERROR - An error occurred:A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 15:58:53,349 - __main__ - INFO - Start bot
+2024-08-14 15:58:53,822 - __main__ - ERROR - An error occurred:A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 15:59:00,227 - __main__ - INFO - Start bot
+2024-08-14 15:59:00,992 - __main__ - ERROR - An error occurred:A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 16:02:07,867 - __main__ - INFO - Starting the application...
+2024-08-14 16:02:09,227 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 16:02:09,236 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 16:02:12,405 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 16:02:12,406 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 16:02:15,658 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 16:02:15,659 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 16:02:18,956 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 16:02:18,957 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 16:02:22,087 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 16:02:22,088 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 16:02:25,203 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 16:02:25,203 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 16:02:28,306 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 16:02:28,306 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 16:02:31,658 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 16:02:31,659 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 16:02:34,822 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 16:02:34,823 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 16:02:38,123 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 16:02:38,124 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 16:02:41,227 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 16:02:41,227 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 16:02:44,447 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+2024-08-14 16:02:44,448 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1176, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 295, in user
+    self._user = self.get_me()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1363, in get_me
+    apihelper.get_me(self.token)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 202, in get_me
+    return _make_request(token, method_url)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 404. Description: Not Found
+
+2024-08-14 16:02:46,325 - __main__ - INFO - Starting the application...
+2024-08-14 16:03:27,090 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 16:03:27,090 - TeleBot - ERROR - Break infinity polling
+2024-08-14 16:51:47,456 - __main__ - ERROR - An error occurred: create_user_table() missing 1 required positional argument: 'user'
+2024-08-14 16:52:36,281 - __main__ - INFO - User table created successfully
+2024-08-14 16:52:36,281 - __main__ - INFO - Starting the application...
+2024-08-14 16:53:02,485 - TeleBot - ERROR - Infinity polling exception: integer out of range
+
+2024-08-14 16:53:02,486 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1179, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1254, in __threaded_polling
+    raise e
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1216, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 8715, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/main.py", line 74, in start
+    insert_user(message.from_user)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/main.py", line 49, in insert_user
+    cursor.execute("""
+psycopg2.errors.NumericValueOutOfRange: integer out of range
+
+
+2024-08-14 16:53:51,750 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 16:53:51,750 - TeleBot - ERROR - Break infinity polling
+2024-08-14 16:55:42,862 - __main__ - INFO - User table created successfully
+2024-08-14 16:55:42,862 - __main__ - INFO - Starting the application...
+2024-08-14 16:55:47,854 - TeleBot - ERROR - Infinity polling exception: integer out of range
+
+2024-08-14 16:55:47,854 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1179, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1254, in __threaded_polling
+    raise e
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1216, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 8715, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/main.py", line 74, in start
+    insert_user(message.from_user)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/main.py", line 49, in insert_user
+    cursor.execute("""
+psycopg2.errors.NumericValueOutOfRange: integer out of range
+
+
+2024-08-14 16:56:32,370 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 16:56:32,371 - TeleBot - ERROR - Break infinity polling
+2024-08-14 16:57:07,268 - __main__ - INFO - User table created successfully
+2024-08-14 16:57:07,269 - __main__ - INFO - Starting the application...
+2024-08-14 16:57:14,184 - TeleBot - ERROR - Infinity polling exception: integer out of range
+
+2024-08-14 16:57:14,185 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1179, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1254, in __threaded_polling
+    raise e
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1216, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 8715, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/main.py", line 64, in start
+    insert_user(message.from_user)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/main.py", line 44, in insert_user
+    cursor.execute("""
+psycopg2.errors.NumericValueOutOfRange: integer out of range
+
+
+2024-08-14 16:58:40,367 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 16:58:40,368 - TeleBot - ERROR - Break infinity polling
+2024-08-14 16:58:44,717 - __main__ - INFO - User table created successfully
+2024-08-14 16:58:44,717 - __main__ - INFO - Starting the application...
+2024-08-14 16:58:58,630 - TeleBot - ERROR - Infinity polling exception: integer out of range
+
+2024-08-14 16:58:58,631 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1179, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1254, in __threaded_polling
+    raise e
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1216, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 8715, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/main.py", line 64, in start
+    insert_user(message.from_user)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/main.py", line 44, in insert_user
+    cursor.execute("""
+psycopg2.errors.NumericValueOutOfRange: integer out of range
+
+
+2024-08-14 17:01:41,455 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 17:01:41,456 - TeleBot - ERROR - Break infinity polling
+2024-08-14 17:01:55,387 - __main__ - INFO - User table created successfully
+2024-08-14 17:01:55,387 - __main__ - INFO - Starting the application...
+2024-08-14 17:02:00,182 - TeleBot - ERROR - Infinity polling exception: integer out of range
+
+2024-08-14 17:02:00,183 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1179, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1254, in __threaded_polling
+    raise e
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1216, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 8715, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/main.py", line 64, in start
+    insert_user(message.from_user)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/main.py", line 44, in insert_user
+    cursor.execute("""
+psycopg2.errors.NumericValueOutOfRange: integer out of range
+
+
+2024-08-14 17:03:19,394 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 17:03:19,395 - TeleBot - ERROR - Break infinity polling
+2024-08-14 17:03:21,556 - __main__ - INFO - User table created successfully
+2024-08-14 17:03:21,556 - __main__ - INFO - Starting the application...
+2024-08-14 17:03:23,530 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 17:03:23,531 - TeleBot - ERROR - Break infinity polling
+2024-08-14 17:04:31,890 - __main__ - INFO - User table created successfully
+2024-08-14 17:04:31,891 - __main__ - INFO - Starting the application...
+2024-08-14 17:04:35,110 - TeleBot - ERROR - Infinity polling exception: integer out of range
+
+2024-08-14 17:04:35,111 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1179, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1254, in __threaded_polling
+    raise e
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1216, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 8715, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/main.py", line 64, in start
+    insert_user(message.from_user)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/main.py", line 44, in insert_user
+    cursor.execute("""
+psycopg2.errors.NumericValueOutOfRange: integer out of range
+
+
+2024-08-14 17:04:41,124 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 17:04:41,125 - TeleBot - ERROR - Break infinity polling
+2024-08-14 17:06:50,550 - __main__ - INFO - User table created successfully
+2024-08-14 17:06:50,550 - __main__ - INFO - Starting the application...
+2024-08-14 17:06:56,936 - TeleBot - ERROR - Infinity polling exception: integer out of range
+
+2024-08-14 17:06:56,937 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1179, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1254, in __threaded_polling
+    raise e
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1216, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 8715, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/main.py", line 64, in start
+    insert_user(message.from_user)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/main.py", line 44, in insert_user
+    cursor.execute("""
+psycopg2.errors.NumericValueOutOfRange: integer out of range
+
+
+2024-08-14 17:07:04,873 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 17:07:04,873 - TeleBot - ERROR - Break infinity polling
+2024-08-14 17:08:38,066 - __main__ - INFO - User table created successfully
+2024-08-14 17:08:38,067 - __main__ - INFO - Starting the application...
+2024-08-14 17:08:43,403 - TeleBot - ERROR - Infinity polling exception: integer out of range
+
+2024-08-14 17:08:43,404 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1179, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1254, in __threaded_polling
+    raise e
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1216, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 8715, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/main.py", line 64, in start
+    insert_user(message.from_user)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/main.py", line 44, in insert_user
+    cursor.execute("""
+psycopg2.errors.NumericValueOutOfRange: integer out of range
+
+
+2024-08-14 17:09:01,520 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 17:09:01,520 - TeleBot - ERROR - Break infinity polling
+2024-08-14 17:12:12,996 - __main__ - ERROR - An error occurred: syntax error at or near "TIMESTAMP"
+LINE 8:                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTA...
+                                   ^
+
+2024-08-14 17:12:22,944 - __main__ - ERROR - An error occurred: syntax error at or near "TIMESTAMP"
+LINE 8:                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTA...
+                                   ^
+
+2024-08-14 17:12:40,757 - __main__ - ERROR - An error occurred: syntax error at or near "TIMESTAMP"
+LINE 8:                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTA...
+                                   ^
+
+2024-08-14 17:13:38,098 - __main__ - ERROR - An error occurred: syntax error at or near "TIMESTAMP"
+LINE 8:                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTA...
+                                   ^
+
+2024-08-14 17:13:41,887 - __main__ - ERROR - An error occurred: syntax error at or near "TIMESTAMP"
+LINE 8:                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTA...
+                                   ^
+
+2024-08-14 17:13:50,829 - __main__ - ERROR - An error occurred: syntax error at or near "TIMESTAMP"
+LINE 8:                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTA...
+                                   ^
+
+2024-08-14 17:14:13,314 - __main__ - ERROR - An error occurred: syntax error at end of input
+LINE 9:         
+                ^
+
+2024-08-14 17:14:40,071 - __main__ - INFO - User table created successfully
+2024-08-14 17:14:40,072 - __main__ - INFO - Starting the application...
+2024-08-14 17:14:47,519 - __main__ - INFO - User 7081750659 inserted successfully
+2024-08-14 17:27:10,361 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 17:27:10,362 - TeleBot - ERROR - Break infinity polling
+2024-08-14 17:29:29,307 - __main__ - INFO - User table created successfully
+2024-08-14 17:29:29,307 - __main__ - INFO - Starting the application...
+2024-08-14 17:30:01,422 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 17:30:01,422 - TeleBot - ERROR - Break infinity polling
+2024-08-14 17:41:03,046 - __main__ - INFO - User table created successfully
+2024-08-14 17:41:03,046 - __main__ - INFO - Starting the application...
+2024-08-14 17:42:06,913 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 17:42:06,914 - TeleBot - ERROR - Break infinity polling
+2024-08-14 17:42:44,218 - __main__ - INFO - User table created successfully
+2024-08-14 17:42:44,218 - __main__ - INFO - Starting the application...
+2024-08-14 17:42:46,470 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 17:42:46,470 - TeleBot - ERROR - Break infinity polling
+2024-08-14 17:44:17,551 - __main__ - INFO - User table created successfully
+2024-08-14 17:44:17,551 - __main__ - INFO - Starting the application...
+2024-08-14 17:46:08,406 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-14 17:46:08,406 - TeleBot - ERROR - Break infinity polling
+2024-08-15 17:15:47,324 - __main__ - INFO - User table created successfully
+2024-08-15 17:15:47,324 - __main__ - INFO - Starting the application...
+2024-08-15 17:15:58,241 - TeleBot - ERROR - Infinity polling exception: 'builtin_function_or_method' object has no attribute 'isdigit'
+2024-08-15 17:15:58,242 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1179, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1254, in __threaded_polling
+    raise e
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1216, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 8715, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/main.py", line 77, in base_currency_function
+    if not rate.isdigit.isdigit():
+AttributeError: 'builtin_function_or_method' object has no attribute 'isdigit'
+
+2024-08-15 17:16:08,295 - TeleBot - ERROR - Infinity polling exception: 'builtin_function_or_method' object has no attribute 'isdigit'
+2024-08-15 17:16:08,296 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1091, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1179, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1254, in __threaded_polling
+    raise e
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 1216, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/venv/lib/python3.10/site-packages/telebot/__init__.py", line 8715, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "/home/maga/Champions/TelegramBot/ExchangeBot/main.py", line 77, in base_currency_function
+    if not rate.isdigit.isdigit():
+AttributeError: 'builtin_function_or_method' object has no attribute 'isdigit'
+
+2024-08-15 17:16:36,206 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-15 17:16:36,206 - TeleBot - ERROR - Break infinity polling
+2024-08-15 17:16:39,039 - __main__ - INFO - User table created successfully
+2024-08-15 17:16:39,039 - __main__ - INFO - Starting the application...
+2024-08-15 17:17:34,521 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-15 17:17:34,521 - TeleBot - ERROR - Break infinity polling
+2024-08-15 17:20:19,985 - __main__ - INFO - User table created successfully
+2024-08-15 17:20:19,985 - __main__ - INFO - Starting the application...
+2024-08-15 17:20:39,353 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-15 17:20:39,354 - TeleBot - ERROR - Break infinity polling
+2024-08-15 17:20:46,401 - __main__ - INFO - User table created successfully
+2024-08-15 17:20:46,401 - __main__ - INFO - Starting the application...
+2024-08-15 17:28:07,872 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-15 17:28:07,872 - TeleBot - ERROR - Break infinity polling
+2024-08-15 17:30:02,177 - __main__ - INFO - User table created successfully
+2024-08-15 17:30:02,177 - __main__ - INFO - Starting the application...
+2024-08-15 17:31:10,841 - TeleBot - ERROR - Infinity polling: polling exited
+2024-08-15 17:31:10,842 - TeleBot - ERROR - Break infinity polling
