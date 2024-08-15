@@ -77,11 +77,11 @@ def base_currency_function(message: types.Message):
 
     if int(rate) <= 0:
         bot.send_message(message.chat.id, "Введите число больше нуля")
-       return
+        return
 
     if int(rate) >= 1000000:
         bot.send_message(message.chat.id, "Введите число меньше 1 000 000")
-      return
+        return
 
     curencies = ["kgs", "rub", "usd", "eur", "uah","azn","btc"]
     bot.reply_to(message, f" Change {rate} KZT \n Start......")
